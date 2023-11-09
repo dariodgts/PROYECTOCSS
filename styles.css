@@ -1,0 +1,43 @@
+body{
+position:relative;
+background-color: whitesmoke;
+}
+img{
+    width: 1400px;
+    height: 600px;
+   /*
+    background-color: green;
+    box-shadow: inset -10px 20px -5x #3a0303;
+    */
+    margin: 3%;
+    padding: 3%;
+   margin-top:3%;
+   padding-top: 3%;
+   border-radius: 20%; /*para que se ponga redondo una caja*/
+   margin-bottom: 50rem;
+   /*border: 80px solid black; crear border */
+   min-height:auto;
+   box-sizing: border-box;
+   align-items: center;
+   display: flex;
+   filter: contrast(150%);
+
+}
+div{
+    width: 1500px;
+    height: 800px;
+    margin: 3%;
+    padding: 3%;
+    margin-top:3%;
+    padding-top: 3%;
+    background: linear-gradient(blue, pink, yellow, green, whitesmoke);
+   background-color:aqua;
+    box-shadow: inset 10px 10px 5px #3a0303,
+    inset -10px -10px -5px;
+    border-radius: 20%;
+    background-image: -webkit-radial-gradient(100%);
+align-items: center;
+filter: contrast(100%);
+
+/*display: flex;*/
+}
